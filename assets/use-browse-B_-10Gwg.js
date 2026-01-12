@@ -1,0 +1,1 @@
+import{$ as r}from"./index-CKYMUaQW.js";function u(e){return r.useQuery("get","/api/v1/search/",{params:{query:{keyword:e}}},{enabled:e.length>0})}function s(e="name"){return r.useQuery("get","/api/v1/genres/",{params:{query:{sort:e}}})}export{u as a,s as u};

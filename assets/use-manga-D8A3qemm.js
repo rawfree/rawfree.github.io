@@ -1,0 +1,1 @@
+import{$ as e}from"./index-CKYMUaQW.js";function u(a){return e.useQuery("get","/api/v1/manga/{id}",{params:{path:{id:a}}})}function p(a,r="desc"){return e.useQuery("get","/api/v1/manga/{id}/chapters",{params:{path:{id:a},query:{order:r}}},{enabled:!!a})}function s(a){return e.useQuery("get","/api/v1/chapter/{id}",{params:{path:{id:a}}})}export{p as a,s as b,u};

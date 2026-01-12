@@ -1,0 +1,1 @@
+import{j as l}from"./index-CKYMUaQW.js";import{c as m}from"./utils-BDo7o5Y5.js";const p={sm:"gap-1.5 sm:gap-2",md:"gap-2 sm:gap-3",lg:"gap-3 sm:gap-4"};function c({children:a,className:s,fullBleed:o=!0,snap:r=!0,gap:t="md"}){return l.jsx("div",{className:m("horizontal-scroll",p[t],o&&"horizontal-scroll-bleed",r&&"snap-x snap-mandatory",s),children:a})}export{c as H};

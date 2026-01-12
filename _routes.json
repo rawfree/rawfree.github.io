@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/manga/*", "/chapter/*"],
+  "exclude": ["/assets/*", "/*.js", "/*.css", "/*.svg", "/*.png", "/*.ico", "/*.webmanifest"]
+}

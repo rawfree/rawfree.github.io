@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="36" fill="url(#bg)"/>
+  <!-- Book/Manga icon -->
+  <g fill="white">
+    <!-- Left page -->
+    <path d="M48 45 C48 38, 55 30, 63 30 L93 30 L93 150 C86 150, 63 143, 63 143 L48 143 L48 45 Z" opacity="0.9"/>
+    <!-- Right page -->
+    <path d="M99 30 L129 30 C137 30, 144 38, 144 45 L144 143 L129 143 C129 143, 106 150, 99 150 L99 30 Z"/>
+    <!-- Center spine -->
+    <rect x="93" y="30" width="6" height="120" opacity="0.3"/>
+    <!-- Page lines left -->
+    <rect x="57" y="53" width="27" height="3" rx="1.5" opacity="0.3"/>
+    <rect x="57" y="68" width="27" height="3" rx="1.5" opacity="0.3"/>
+    <rect x="57" y="83" width="21" height="3" rx="1.5" opacity="0.3"/>
+    <!-- Page lines right -->
+    <rect x="108" y="53" width="27" height="3" rx="1.5" opacity="0.3"/>
+    <rect x="108" y="68" width="27" height="3" rx="1.5" opacity="0.3"/>
+    <rect x="108" y="83" width="21" height="3" rx="1.5" opacity="0.3"/>
+  </g>
+</svg>
